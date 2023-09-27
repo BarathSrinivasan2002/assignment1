@@ -1,0 +1,55 @@
+<!-- Inside your services.ejs template -->
+<%- include('partials/header') %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="services-section">
+            <h1>Services</h1>
+            <div class="service">
+                <img src="..\images\pose.png" alt="Service 1">
+                <h2>AI-Based Chronic Lower Back Pain Detection using Pose Estimation Models</h2>
+                <p>
+                    <h4>Description:</h4>
+                    As a dedicated and innovative AI engineer, I led a groundbreaking project aimed at improving the lives of individuals suffering from 
+                    chronic lower back pain.Leveraging cutting-edge AI technologies, specifically OpenCV and MobileNet,
+                    I developed a robust and accurate system for the early detection and monitoring of chronic lower back pain.
+                </p>
+            </div>
+        </br>
+            <div class="service">
+                <img src="/images/service2.jpg" alt="Service 2">
+                <h2>Web App Development</h2>
+                <p>
+                    Build cutting-edge mobile applications for both iOS and Android platforms.
+                </p>
+            </div>
+            <div class="service">
+                <img src="/images/service3.jpg" alt="Service 3">
+                <h2>General Programming</h2>
+                <p>
+                    Our team is proficient in a wide range of programming languages and technologies.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>

@@ -1,0 +1,165 @@
+/* File:Barath Srinivasan
+ * Student ID: 301139370
+ * Date: October 2, 2023
+ */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Style your welcome section */
+.welcome-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+}
+
+/* Style your mission section */
+.mission-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mission-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.mission-section p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Style your image */
+.about-content img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 50%; /* Makes the image round if it's a headshot */
+}
+
+.service img {
+    max-width: 100%;
+    height: 400px;
+     /* Makes the image round if it's a headshot */
+}
+
+/* Style your buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+
+.headerclass {
+    display: flex;
+    justify-content: space-between; /* Align logo to the right */
+    align-items: center; /* Vertically center logo and other content */
+}
+
+.logo {
+    order: 2; /* Adjust the order to place the logo on the right */
+    margin-left: auto; /* Push the logo to the right */
+}
+
+.logo img {
+    width: 100px !important; /* Adding !important for higher specificity */
+    height: 100px;
+}
+
+.welcome-message {
+    order: 1; /* Adjust the order to place the welcome message on the left */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .welcome-section h1 {
+        font-size: 2rem;
+    }
+
+    .welcome-section p {
+        font-size: 1rem;
+    }
+
+    .mission-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .mission-section p {
+        font-size: 1rem;
+    }
+}
