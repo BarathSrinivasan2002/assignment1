@@ -132,14 +132,74 @@ main {
 }
 
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
 }
 
+/* Style the footer */
+footer {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-end; /* Align content to the bottom of the container */
+    align-items: center; /* Center items horizontally */
+    min-height: 100vh; /* Ensure the footer spans the entire viewport height */
+}
 
+/* Style the logo */
+.footer-logo {
+    margin-bottom: 20px; /* Add some spacing between the logo and other content */
+}
+
+/* Style the logo image */
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Add styles for social links */
+.footer-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Add styles for social icons (Font Awesome) */
+.footer-social ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+    transition: color 0.3s;
+}
+
+.footer-social ul li a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Style the footer bottom section */
+.footer-bottom {
+    text-align: center;
+}
+
+/* Center content vertically and horizontally */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container spans the entire viewport height */
+}
+
+/* Center-align text */
+h1, p {
+    text-align: center;
+}
 
 /* Add media queries for responsiveness */
 @media (max-width: 768px) {
