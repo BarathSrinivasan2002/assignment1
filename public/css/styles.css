@@ -1,4 +1,5 @@
-/* File:Barath Srinivasan
+/* File: styles.css
+ * Name:Barath Srinivasan
  * Student ID: 301139370
  * Date: October 2, 2023
  */
@@ -49,7 +50,7 @@ main {
     padding: 20px;
 }
 
-/* Style your welcome section */
+/* Style for welcome section */
 .welcome-section {
     text-align: center;
     padding: 40px;
@@ -63,7 +64,7 @@ main {
     font-size: 1.2rem;
 }
 
-/* Style your mission section */
+/* Style for mission section */
 .mission-section {
     background-color: #fff;
     padding: 20px;
