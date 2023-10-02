@@ -4,6 +4,7 @@
   "description": "first assignment",
   "main": "app.js",
   "scripts": {
+    "build": "azure",
     "test": "hi"
   },
   "repository": {
